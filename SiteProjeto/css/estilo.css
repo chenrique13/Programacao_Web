@@ -1,0 +1,163 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1, h2, h3, h4, h5,h6{
+	color: black;
+	margin-left: 40px;
+}
+
+li{
+	margin-left: 30px;
+	text-align: left;
+}
+
+p{
+	margin-left: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: justify;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	color: black;
+	background: #303030;
+	font-weight: 800;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
+	
+}
+
+#geral{
+	background: #303030;
+	width: 1200px;
+	height: 1650px;
+	margin: auto;
+}
+#topo{
+	margin: 0;
+	background: #FF0004;
+	width: 1200px;
+	height: 200px;
+}
+
+#menu{
+	margin: -10 0 10 0;
+	width: 1200px;
+	height: 90px;
+}
+
+.fMenu{
+	margin-top: 20px;
+	color: #fff;
+}
+
+.fMenu ul{
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	padding: 0;
+	list-style-type: none;
+	z-index: 100;
+}
+
+.fMenu ul li{
+	position: relative;
+	float: left;
+	display: inline;
+	margin-top: 10px;
+	margin-left: 60px;
+}
+
+.fMenu ul li ul{
+	position: absolute;
+	width: 160px;
+	margin: 0px 0 5px 0px; 
+	left: 0;
+	display: none;
+	visibility: hidden;	
+	background: url("../img/submenu.png") repeat-y;
+}
+
+.fMenu ul li:hover ul{
+	display: block;
+	visibility: visible;
+	opacity: 0.8;
+}
+
+
+.fMenu ul li ul li{
+	display: list-item;
+	float: none;
+}
+
+.fMenu ul li ul li a{
+	font-size: 18px;
+	float: none;
+	margin-left: -35px;
+}
+
+.fMenu ul li a{
+	color: #ECECEC;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+* html .fMenu ul li a{
+display: inline-block;
+}
+
+.fMenu ul li a.selecionado, .fMenu ul li a:hover{
+	color: #CA0003;	
+}
+
+#conteudo{
+	background: #707070;
+	width: 1200px;
+	height: 1250px;
+	margin-top: -20px;
+
+}
+
+#colinaD{
+	background: #707070;
+	width: 350px;
+	height: 1245px;
+	float: right;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 5px;
+}
+
+.fColuna p{
+	text-align: center;
+	margin-top: 0;
+	margin-right: 60px;
+	margin-left: 80px;
+	margin-bottom: 0;
+}
+
+.fColuna img{
+	margin-left: 135px;
+	margin-top: -10px;
+}
+.fColuna h3{
+	text-align: center;
+
+}
+
+#creditos{
+	background: #00430B;
+	width: 1200px;
+	height: 50px;
+	margin-top: -20px;
+}
+.link{
+	margin-left: 340px;
+	color: #FFFFFF;
+	text-decoration:none;
+}
