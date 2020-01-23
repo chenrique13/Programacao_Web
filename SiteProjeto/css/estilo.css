@@ -20,7 +20,7 @@ p {
 body {
 	margin: 0;
 	padding: 0;
-	color: black;
+	color: #000000;
 	background: #DFDFDF;
 	font-weight: 800;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
@@ -28,8 +28,8 @@ body {
 }
 #geral {
 	background: #DFDFDF;
-	width: 1200px;
-	height: 1650px;
+	width: 1220px;
+	height: 1600px;
 	margin: auto;
 }
 #topo {
@@ -41,7 +41,7 @@ body {
 #menu {
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	margin: -10 0 10 0;
-	width: 1200px;
+	width: 1220px;
 	height: 50px;
 }
 .fMenu {
@@ -214,7 +214,7 @@ body {
 	margin: -5px -10px 0 -10px;
 }
 #creditos {
-	background-color: #1660FF;
+	background: #1660FF;
 	width: 1220px;
 	height: 50px;
 	clear: none;
