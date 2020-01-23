@@ -105,16 +105,16 @@ body {
 	font-size: 20px;
 }
 #conteudo h2.link {
-	color: black;
+	color: #000000;
 	margin-left: 300px;
 }
-.link {
-	margin-left: 340px;
+#conteudo a.link {
+	margin-left: 365px;
 	color: #4000E7;
 	text-decoration: none;
 }
 #conteudo a:hover {
-	color: black;
+	color: #000000;
 }
 .fColunasP {
 	background: #F9F9F9;
