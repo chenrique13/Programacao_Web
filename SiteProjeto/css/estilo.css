@@ -82,8 +82,8 @@ body {
 	display: inline-block;
 }
 .fMenu ul li a.selecionado, .fMenu ul li a:hover {
-	color: rgba(0,0,255,1.00);
-	text-shadow: 0 3px 5px rgba(0,0,0,1.00);
+	color: #0000FF;
+	text-shadow: 0 3px 5px #000000;
 	font-size: xx-large;
 }
 #conteudo {
@@ -98,6 +98,11 @@ body {
 }
 #conteudo li {
 	margin-right: 400px;
+}
+#conteudo h4 {
+	margin: 0 0 0 560px;
+	line-height: 70px;
+	font-size: 20px;
 }
 #conteudo h2.link {
 	color: black;
@@ -190,15 +195,13 @@ body {
 .fColuna h3 {
 	font-size: 20px;
 }
-
-#botaoE{
+#botaoE {
 	width: 50px;
 	height: 50px;
 	margin-left: 50px;
 	float: left;
 }
-
-#botaoE p{
+#botaoE p {
 	margin: -5px -10px 0 -10px;
 }
 
@@ -208,9 +211,8 @@ body {
 	margin-right: 55px;
 	float: right;
 }
-
-#botaoD p{
-	margin: -5px -10px 0 -10px;		
+#botaoD p {
+	margin: -5px -10px 0 -10px;
 }
 #creditos {
 	background-color: #1660FF;
