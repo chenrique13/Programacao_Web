@@ -44,55 +44,60 @@ body {
 	margin-bottom: 10px;
 }
 #topo img.logo2 {
-	margin-left: -10px;
-	margin-bottom: 28px;
+	margin-left: 51px;
+	margin-right: 51px;
+	margin-bottom: 18px;
+}
+#topo img.logo3 {
+	margin-right: 50px;
+	margin-bottom: 10px;
 }
 #menu {
+	background-image: url( "../img/FundoLogo3.png");
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	margin: -10 0 10 0;
 	width: 1220px;
-	height: 50px;
+	height: 80px;
+	border-color: #000000;	
 }
-.fMenu {
-	margin-top: 20px;
+#menu.fMenu {
+	margin-top: -20px;
 	color: #FFFFFF;
 }
-.fMenu ul {
-	margin-top: 30px;
-	margin-right: 30px;
-	margin-bottom: 30px;
-	padding: 0;
+#menu.fMenu ul {
+	background: #BEBEBE;
+	width: 1190px;
+	height: 55px;
+	border-radius: 30px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 	list-style-type: none;
-	z-index: 100;
+	text-shadow: 0px 0px #000000;
+	border: 5px solid #000000;
+	margin-left: 5px;
 }
-.fMenu ul li {
+#menu.fMenu ul li {
 	position: relative;
-	float: left;
+	float: none;
 	display: inline;
-	margin-left: 70px;
-	line-height: 1px;
+	margin-left: 80px;
+	line-height: 50px;
 }
-.fMenu ul li ul li {
-	display: list-item;
-	float: none;
-}
-.fMenu ul li ul li a {
-	font-size: 18px;
-	float: none;
-	margin-left: -35px;
-}
-.fMenu ul li a {
+#menu.fMenu ul li a {
 	color: #000000;
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 800;
 }
-* html .fMenu ul li a {
-	display: inline-block;
-}
-.fMenu ul li a.selecionado, .fMenu ul li a:hover {
+#menu.fMenu ul li a.selecionado, #menu.fMenu ul li a:hover {
 	color: #0000FF;
-	text-shadow: 0 3px 5px #000000;
+	text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
+	font-size: xx-large;
+}
+#menu.fMenu ul li a.cadastro:hover {
+	color: #EBEE23;
+	text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
 	font-size: xx-large;
 }
 #conteudo {
@@ -103,7 +108,6 @@ body {
 	padding-right: 0px;
 	padding-left: 20px;
 	padding-bottom: 20px;
-	margin-top: -20px;
 }
 #conteudo li {
 	margin-right: 400px;
@@ -126,14 +130,14 @@ body {
 	color: #000000;
 	text-decoration: underline;
 }
-.fColunasP {
+#conteudo .fColunasP {
 	background: #F9F9F9;
 	width: 520px;
 	height: 1200px;
 	float: left;
 	margin: 0 40px 0 40px;
 }
-.fColunaS {
+#conteudo .fColunaS {
 	background: #1660FF;
 	width: 500px;
 	height: 280px;
@@ -143,7 +147,7 @@ body {
 	margin-left: 10px;
 	font-size: 14px;
 }
-.fFotos {
+#conteudo .fFotos {
 	background: #1660FF;
 	width: 195px;
 	height: 280px;
@@ -156,7 +160,7 @@ body {
 	margin-left: 7px;
 	margin-top: 5px
 }
-.fDescricao {
+#conteudo .fDescricao {
 	background: #FFFFFF;
 	width: 300px;
 	height: 270px;
@@ -183,14 +187,17 @@ body {
 #colunaD {
 	background: #707070;
 	width: 350px;
-	height: 180px;
+	height: 1260px;
 	float: right;
 	margin-right: 30px;
 	margin-left: 30px;
 	margin-top: 5px;
 	font-size: 16px;
 }
-.fColuna p {
+#colunaD h2 {
+	margin-top: 1000px;
+}
+#colunaD.fColuna p {
 	text-align: center;
 	margin-top: 0;
 	margin-right: 60px;
@@ -198,11 +205,11 @@ body {
 	margin-bottom: 0;
 	font-size: 16px;
 }
-.fColuna img {
+#colunaD.fColuna img {
 	margin-left: 135px;
 	margin-top: -10px;
 }
-.fColuna h3 {
+#colunaD.fColuna h3 {
 	font-size: 20px;
 }
 #botaoE {
@@ -229,20 +236,20 @@ body {
 	height: 50px;
 	clear: none;
 }
-.fCreditos li {
+#creditos.fCreditos li {
 	color: #000000;
 	display: inline;
 	margin-left: 150px;
 	font-size: 20px;
 	text-align: center;
 }
-.fCreditos li a {
+#creditos.fCreditos li a {
 	text-decoration: none;
 	color: #393939;
 	line-height: 45px;
 	text-align: center;
 }
-.fCreditos li a:hover {
+#creditos.fCreditos li a:hover {
 	color: #000000;
 	text-decoration: underline;
 }
