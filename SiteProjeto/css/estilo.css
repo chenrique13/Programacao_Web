@@ -124,6 +124,7 @@ body {
 }
 #conteudo a:hover {
 	color: #000000;
+	text-decoration: underline;
 }
 .fColunasP {
 	background: #F9F9F9;
@@ -243,4 +244,5 @@ body {
 }
 .fCreditos li a:hover {
 	color: #000000;
+	text-decoration: underline;
 }
