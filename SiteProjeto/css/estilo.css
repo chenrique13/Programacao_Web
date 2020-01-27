@@ -195,8 +195,68 @@ body {
 	font-size: 16px;
 }
 #colunaD h2 {
-	margin-top: 1000px;
+	margin-top: 700px;
 }
+
+#nome {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#email {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#linkedin {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#github {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#importarcurriculo {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#importarfoto {
+	margin-right: 0px;
+    margin-left: 0px;
+	margin-top: 10px;
+  }
+
+#descricao {
+	margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+
+#botao.fbotao {
+	text-align: center;
+	font-size: 50px;
+}
+
+
+form {
+	/* Apenas para centralizar o form na página */
+	margin: 10px;
+	width: 300px;
+	/* Para ver as bordas do formulário */
+	padding: 1em;
+	border: 1px solid #CCC;
+	border-radius: 1em;
+}
+
+
 #colunaD.fColuna p {
 	text-align: center;
 	margin-top: 0;
