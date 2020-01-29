@@ -1,317 +1,316 @@
 @charset "utf-8";
 /* CSS Document */
 h1, h2, h3, h4, h5, h6 {
-    color: #000000;
-    margin-left: 40px;
+	color: #000000;
+	margin-left: 40px;
 }
 li {
-    margin-left: 30px;
-    text-align: left;
+	margin-left: 30px;
+	text-align: left;
 }
 p {
-    margin-left: 20px;
-    margin-right: 400px;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    text-align: justify;
+	margin-left: 20px;
+	margin-right: 400px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: justify;
 }
 body {
-    margin: 0;
-    padding: 0;
-    color: #000000;
-    background: #DFDFDF;
-    font-weight: 800;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-    font-size: 18px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background: #DFDFDF;
+	font-weight: 800;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 18px;
 }
 #geral {
-    background: #DFDFDF;
-    width: 1220px;
-    height: 1600px;
-    margin: auto;
+	background: #DFDFDF;
+	width: 1220px;
+	height: 1600px;
+	margin: auto;
 }
 #topo {
-    background-image: url("../img/FundoLogo3.png");
-    opacity: 0, 5;
-    margin: 0;
-    width: 1220px;
-    height: 200px;
+	background-image: url("../img/FundoLogo3.png");
+	opacity: 0, 5;
+	margin: 0;
+	width: 1220px;
+	height: 200px;
 }
 #topo img.logo1 {
-    margin-left: 55px;
-    margin-bottom: 10px;
+	margin-left: 55px;
+	margin-bottom: 10px;
 }
 #topo img.logo2 {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-bottom: 18px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 18px;
 }
 #topo img.logo3 {
-    margin-right: 10px;
-    margin-bottom: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 #menu {
-    background-image: url("../img/FundoLogo3.png");
-    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-    width: 1220px;
-    height: 80px;
-    border-color: #000000;
+	background-image: url("../img/FundoLogo3.png");
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	width: 1220px;
+	height: 80px;
+	border-color: #000000;
 }
 #menu.fMenu {
-    margin-top: -20px;
-    color: #FFFFFF;
+	margin-top: -20px;
+	color: #FFFFFF;
 }
 #menu.fMenu ul {
-    background: #BEBEBE;
-    width: 1190px;
-    height: 55px;
-    border-radius: 30px;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    list-style-type: none;
-    text-shadow: 0px 0px #000000;
-    border: 5px solid #000000;
-    margin-left: 5px;
+	background: #BEBEBE;
+	width: 1190px;
+	height: 55px;
+	border-radius: 30px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	list-style-type: none;
+	text-shadow: 0px 0px #000000;
+	border: 5px solid #000000;
+	margin-left: 5px;
 }
 #menu.fMenu ul li {
-    position: relative;
-    float: none;
-    display: inline;
-    margin-left: 70px;
-    line-height: 50px;
+	position: relative;
+	float: none;
+	display: inline;
+	margin-left: 70px;
+	line-height: 50px;
 }
 #menu.fMenu ul li a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 800;
+	color: #000000;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 800;
 }
 #menu.fMenu ul li a.selecionado, #menu.fMenu ul li a:hover {
-    color: #0000FF;
-    text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
-    font-size: xx-large;
+	color: #0000FF;
+	text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
+	font-size: xx-large;
 }
 #menu.fMenu ul li a.cadastro:hover {
-    color: #EBEE23;
-    text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
-    font-size: xx-large;
+	color: #EBEE23;
+	text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
+	font-size: xx-large;
 }
 #conteudo {
-    background: #F9F9F9;
-    width: 1200px;
-    height: 1250px;
-    padding-top: 20px;
-    padding-right: 0px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+	background: #F9F9F9;
+	width: 1200px;
+	height: 1250px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 #conteudohome {
-    background: #F9F9F9;
-    width: 1200px;
-    height: 1250px;
-    padding-top: 60px;
-    padding-right: 0px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+	background: #F9F9F9;
+	width: 1200px;
+	height: 1250px;
+	padding-top: 60px;
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 #conteudo li {
-    margin-right: 400px;
+	margin-right: 400px;
 }
 #conteudo h4 {
-    margin: 0 0 0 560px;
-    line-height: 70px;
-    font-size: 20px;
+	margin: 0 0 0 560px;
+	line-height: 70px;
+	font-size: 20px;
 }
 #conteudo h2.link {
-    color: #000000;
-    margin-left: 300px;
+	color: #000000;
+	margin-left: 300px;
 }
 #conteudo a.link {
-    margin-left: 365px;
-    color: #4000E7;
-    text-decoration: none;
+	margin-left: 365px;
+	color: #4000E7;
+	text-decoration: none;
 }
 #conteudo a:hover {
-    color: #000000;
-    text-decoration: underline;
+	color: #000000;
+	text-decoration: underline;
 }
 #conteudo .fColunasP {
-    background: #F9F9F9;
-    width: 520px;
-    height: 1200px;
-    float: left;
-    margin: 0 40px 0 40px;
+	background: #F9F9F9;
+	width: 520px;
+	height: 1200px;
+	float: left;
+	margin: 0 40px 0 40px;
 }
 #conteudo .fColunaS {
-    background: #1660FF;
-    width: 500px;
-    height: 280px;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    font-size: 14px;
+	background: #1660FF;
+	width: 500px;
+	height: 280px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 14px;
 }
 #conteudo .fFotos {
-    background: #1660FF;
-    width: 195px;
-    height: 280px;
-    float: left;
+	background: #1660FF;
+	width: 195px;
+	height: 280px;
+	float: left;
 }
 #conteudo .fFotos a {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 #conteudo .fFotos img {
-    margin-left: 7px;
-    margin-top: 5px
+	margin-left: 7px;
+	margin-top: 5px
 }
 #conteudo .fDescricao {
-    background: #FFFFFF;
-    width: 300px;
-    height: 270px;
-    float: right;
-    margin-right: 5px;
-    margin-top: 5px;
+	background: #FFFFFF;
+	width: 300px;
+	height: 270px;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
 }
 #conteudo .fDescricao h3 {
-    margin-left: 18px;
-    margin-top: 3px;
-    margin-bottom: 0px;
-    font-size: 18px;
+	margin-left: 18px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	font-size: 18px;
 }
 #conteudo .fDescricao ul li {
-    position: relative;
-    float: left;
-    margin-left: -22px;
-    line-height: 21px;
-    list-style-type: square;
-    text-align: left;
-    margin-right: 10px;
-    padding-right: 5px;
+	position: relative;
+	float: left;
+	margin-left: -22px;
+	line-height: 21px;
+	list-style-type: square;
+	text-align: left;
+	margin-right: 10px;
+	padding-right: 5px;
 }
 #colunaD {
-    background: #707070;
-    width: 350px;
-    height: 1260px;
-    float: right;
-    margin-right: 30px;
-    margin-left: 30px;
-    margin-top: 5px;
-    font-size: 16px;
+	background: #707070;
+	width: 350px;
+	height: 1260px;
+	float: right;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 5px;
+	font-size: 16px;
 }
 #colunaD h2 {
-    margin-top: 700px;
+	margin-top: 700px;
 }
 #nome {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #email {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #linkedin {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #github {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #importarcurriculo {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #importarfoto {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 #descricao {
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-top: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 form #descricao input {}
 #botao.fbotao {
-    text-align: center;
-    font-size: 50px;
+	text-align: center;
+	font-size: 50px;
 }
 form {
-    margin: 10px;
-    width: 650px;
-    padding: center;
-    border: 1px solid #CCC;
-    border-radius: 1em;
+	margin: 10px;
+	width: 550px;
+	padding: center;
+	border: 1px solid #CCC;
+	border-radius: 1em;
 }
 form.form {
-    margin-top: 70px;
-    margin-left: 250px;
-    margin-right: 450px;
-    float: right;
+	margin-top: 350px;
+	margin-left: 120px;
+	margin-right: 50px;
+	float: left;
 }
 #colunaD.fColuna p {
-    text-align: center;
-    margin-top: 0;
-    margin-right: 60px;
-    margin-left: 80px;
-    margin-bottom: 0;
-    font-size: 16px;
+	text-align: center;
+	margin-top: 0;
+	margin-right: 60px;
+	margin-left: 80px;
+	margin-bottom: 0;
+	font-size: 16px;
 }
 #colunaD.fColuna img {
-    margin-left: 135px;
-    margin-top: -10px;
+	margin-left: 135px;
+	margin-top: -10px;
 }
 #colunaD.fColuna h3 {
-    font-size: 20px;
+	font-size: 20px;
 }
 #botaoE {
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-    float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 50px;
+	float: left;
 }
 #botaoE p {
-    margin: -5px -10px 0 -10px;
+	margin: -5px -10px 0 -10px;
 }
 #botaoD {
-    width: 40px;
-    height: 40px;
-    margin-right: 55px;
-    float: right;
+	width: 40px;
+	height: 40px;
+	margin-right: 55px;
+	float: right;
 }
 #botaoD p {
-    margin: -5px -10px 0 -10px;
+	margin: -5px -10px 0 -10px;
 }
 #creditos {
-    background: #1660FF;
-    width: 1220px;
-    height: 50px;
-    clear: none;
+	background: #1660FF;
+	width: 1220px;
+	height: 50px;
+	clear: none;
 }
 #creditos.fCreditos li {
-    color: #000000;
-    display: inline;
-    margin-left: 150px;
-    font-size: 20px;
-    text-align: center;
+	color: #000000;
+	display: inline;
+	font-size: 20px;
+	text-align: center;
 }
 #creditos.fCreditos li a {
-    text-decoration: none;
-    color: #393939;
-    line-height: 45px;
-    text-align: center;
+	text-decoration: none;
+	color: #393939;
+	line-height: 45px;
+	text-align: center;
 }
 #creditos.fCreditos li a:hover {
-    color: #000000;
-    text-decoration: underline;
+	color: #000000;
+	text-decoration: underline;
 }
