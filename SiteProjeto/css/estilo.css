@@ -148,6 +148,9 @@ body {
 	font-weight: 800;
 	text-align: justify;
 }
+#conteudohome h2{
+	margin-left: -40px;
+}
 #conteudo .fColunasP {
 	background: #F9F9F9;
 	width: 520px;
