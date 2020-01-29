@@ -109,15 +109,6 @@ body {
 	padding-left: 20px;
 	padding-bottom: 20px;
 }
-#conteudohome {
-	background: #F9F9F9;
-	width: 1200px;
-	height: 1250px;
-	padding-top: 60px;
-	padding-right: 0px;
-	padding-left: 20px;
-	padding-bottom: 20px;
-}
 #conteudo li {
 	margin-right: 400px;
 }
@@ -138,6 +129,24 @@ body {
 #conteudo a:hover {
 	color: #000000;
 	text-decoration: underline;
+}
+#conteudohome {
+	background: #F9F9F9;
+	width: 1200px;
+	height: 1250px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#conteudohome p {
+	margin-left: 20px;
+	margin-right: 40px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 800;
+	text-align: justify;
 }
 #conteudo .fColunasP {
 	background: #F9F9F9;
@@ -206,58 +215,70 @@ body {
 #colunaD h2 {
 	margin-top: 700px;
 }
-#nome {
-	margin-right: 0px;
+#templatemo_slider {
 	margin-left: 0px;
-	margin-top: 10px;
 }
-#email {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-#linkedin {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-#github {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-#importarcurriculo {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-#importarfoto {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-#descricao {
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-top: 10px;
-}
-form #descricao input {}
-#botao.fbotao {
-	text-align: center;
-	font-size: 50px;
+#slider-left-but{
+	margin-left: 555px;
 }
 form {
 	margin: 10px;
+	height: 500px;
 	width: 550px;
 	padding: center;
 	border: 1px solid #CCC;
 	border-radius: 1em;
 }
 form.form {
-	margin-top: 350px;
-	margin-left: 120px;
-	margin-right: 50px;
-	float: left;
+	margin-top: 20px;
+	margin-left: 320px;
+	float: none;
+}
+form.form h2 {
+	margin-left: -5px;
+	color: #EBEE23;
+	text-shadow: -1px 3px 5px #000000, -1px 0px 5px #000000, 1px 0px 5px #000000, 1px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000, -2px 0px 5px #000000, 2px 0px 5px #000000;
+	font-size: xx-large;
+}
+#nome {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+#email {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#linkedin {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top:15px;
+}
+#github {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#importarcurriculo {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top:15px;
+}
+#importarfoto {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+#areas {
+	margin-right: 0px;
+	margin-left: 30px;
+	margin-top: 15px;
+	line-height: 30px;
+}
+#botao.fbotao {
+	text-align: center;
+	font-size: 50px;
 }
 #colunaD.fColuna p {
 	text-align: center;
