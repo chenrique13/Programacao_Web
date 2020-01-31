@@ -2,14 +2,14 @@
 $mensagem = "
 	Nome: $_POST[nome]
 	E-mail: $_POST[email]
-	Áreas: $_POST[areas]
+	Linkedin: $_POST[linkedin]
 	GitHub: $_POST[git]
-	linkedin: $_POST[linkedin]
+    Áreas: $_POST[areas]
     Curriculo: $_POST[impCurriculo]
 	Foto: $_POST[impFoto]";
 
 
-$dest = 'c.henrique1309@gmail.com';
+$dest = 'wilsonvieira1994@gmail.com';
 
 $enviar = mail( $dest, 'Banco SPW', $mensagem );
 
