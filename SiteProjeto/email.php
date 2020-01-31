@@ -8,7 +8,6 @@ $mensagem = "
     Curriculo: $_POST[impCurriculo]
 	Foto: $_POST[impFoto]";
 
-$arquivo = $_FILES["arquivo"];
 
 $dest = 'c.henrique1309@gmail.com';
 
