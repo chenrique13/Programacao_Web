@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+ <head>
+ <link rel="stylesheet" href="css/estilo.css">
+ <script type="text/javascript" src="js/jquery-1-4-2.min.js"></script>
+ <script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
+ <script type="text/javascript">
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(		
+		{			
+			reflHeight: 40,
+			reflGap:2,
+			titleBox: $('#da-vinci-title'),
+			altBox: $('#da-vinci-alt'),
+			buttonLeft: $('#slider-left-but'),
+			buttonRight: $('#slider-right-but'),
+			yRadius:30,
+			xPos: 480,
+			yPos: 32,
+			speed:0.15,
+		}
+	);
+});
+ </script>
+ <script type="text/javascript" src="js/script.js"> </script>
+ <meta charset="utf-8">
+ <title>Objetivo do Projeto</title>
+ </head>
+ <body>
+ <div id="geral">
+   <div id="topo"> <img class="logo1" src="img/Logo.png" alt="logofig" width="180" height="200" > <img class="logo2" src="img/LogoNome3.png" alt="logoNome" width="650" height="180"> <img class="logo3" src="img/Logo1.png" alt="logofig" width="180" height="200" > </div>
+   <div id="menu" class="fMenu">
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="sobre.html">Sobre o Curso</a></li>
+       <li><a href="objetivo.html" class="selecionado">Objetivo</a></li>
+       <li><a href="#cadastro" class="cadastro">Cadastar Currículo?</a></li>
+     </ul>
+   </div>
+   <div id="conteudohome"> <br>
+     <center>
+       <h2>Objetivo do site</h2>
+     </center>
+     <p>Este site foi criado por meio de um projeto proposto no módulo de Programação Web da Pós Graduação em Software Programming for Work da UNIT.</p>
+     <p>Ele tem como finalidade divulgar informações sobre os alunos da primeira turma do curso de SPW, tais como: foto, descrição, currículo, redes sociais, entre outros.  Com a criação desse site conseguimos fazer um banco de currículos da turma facilitando a divulgação de informações para as empresas. </p>
+     <p> Apresentamos também informações sobre o curso, com o seu objetivo, metodologia de aulas e o diferencial da sua matriz curricular preparada especialmente por profissionais atuantes dentro do parque tecnológico que faz com que os alunos saiam preparados para atuar no mercado de trabalho.</p>
+     <center>
+       <h2>O que utilizamos para criar o site? </h2>
+     </center>
+     <div id="templatemo_slider"> 
+       <center>
+         <div id = "carousel1" style="width:1000px; height:300px;background:none;overflow:scroll; margin-top: 20px"> 
+           <img class="cloudcarousel" src="img/html.png" alt="logohtml" width="240" height="180" /> <img class="cloudcarousel" src="img/dreamweaver.jpg" alt="logodream" width="240" height="180" /> <img class="cloudcarousel" src="img/photoshop.jpg" alt="logops" width="240" height="180" /> <img class="cloudcarousel" src="img/000web.png" alt="logoweb" width="240" height="180" /> <img class="cloudcarousel" src="img/php.png" alt="logophp" width="240" height="180" /> <img class="cloudcarousel" src="img/JS.png" alt="logojs" width="240" height="180" /> <img class="cloudcarousel" src="img/css3.png" alt="logocss" width="240" height="180"/></div>
+       </center>
+       <input id="slider-left-but" type="button" value="<" />
+       <input id="slider-right-but" type="button" value=">" />
+     </div>
+     <form class="form" method="post" action="email.php">
+       <center>
+         <h2>Cadastro de Currículo<a name="cadastro"></a></h2>
+       </center>
+       <div id="nome" class="ftxt"> Nome:
+         <input type="text" class="msg" name="nome" size ="44" placeholder="Digite seu nome"/>
+       </div>
+       <div id="email" class="ftxt"> Email:
+         <input type="text" class="msg" name="email" size ="44" placeholder="Digite seu e-mail"/>
+       </div>
+       <div id="linkedin" class="ftxt"> Linkedin:
+         <input type="text" class="msg" name="linkedin" size ="40" placeholder="Link do LinkedIn"/>
+       </div>
+       <div id="github" class="ftxt"> GitHub:
+         <input type="text" class="msg" name="git" size ="43" placeholder="Link do GitHub"/>
+       </div>
+       <div id="areas" class="ftxt"> Áreas de Interesse: <br>
+         <textarea class="msg" name="areas" id="" cols="60" rows="6" placeholder="Digite a área de interesse"></textarea>
+       </div>
+       <div id="importarcurriculo" class="ftxt"> Importar Currículo:
+         <input type="file" class="msg" name="impCurriculo">
+       </div>
+       <div id="importarfoto" class="ftxt"> Importar Foto:
+         <input type="file" class="msg" name="impFoto">
+       </div>
+       <div id="botao" class="fbotao">
+         <input type="submit" value="Enviar"/>
+       </div>
+     </form>
+   </div>
+   <div id="creditos" class="fCreditos">
+     <center>
+       <li>Desenvolvedores: <a href="Pdf/Carlos_Pereira_CV.pdf" target="_blank"> Carlos Pereira</a> e <a href="Pdf/Currículo_Wilson_CV.pdf" target="_blank"> Wilson Vieira</a></li>
+     </center>
+   </div>
+ </div>
+</body>
+</html>

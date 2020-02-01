@@ -1,97 +1,157 @@
 <!doctype html>
 <html>
- <head>
- <link rel="stylesheet" href="css/estilo.css">
- <script type="text/javascript" src="js/jquery-1-4-2.min.js"></script>
- <script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
- <script type="text/javascript">
-$(document).ready(function(){
-						   
-	// This initialises carousels on the container elements specified, in this case, carousel1.
-	$("#carousel1").CloudCarousel(		
-		{			
-			reflHeight: 40,
-			reflGap:2,
-			titleBox: $('#da-vinci-title'),
-			altBox: $('#da-vinci-alt'),
-			buttonLeft: $('#slider-left-but'),
-			buttonRight: $('#slider-right-but'),
-			yRadius:30,
-			xPos: 480,
-			yPos: 32,
-			speed:0.15,
-		}
-	);
-});
- </script>
- <script type="text/javascript" src="js/script.js"> </script>
- <meta charset="utf-8">
- <title>Banco de Curriculos SPW</title>
- </head>
- <body>
- <div id="geral">
-   <div id="topo"> <img class="logo1" src="img/Logo.png" alt="logofig" width="180" height="200" > <img class="logo2" src="img/LogoNome3.png" alt="logoNome" width="650" height="180"> <img class="logo3" src="img/Logo1.png" alt="logofig" width="180" height="200" > </div>
-   <div id="menu" class="fMenu">
-     <ul>
-       <li><a href="index.html" class="selecionado">Home</a></li>
-       <li><a href="sobre.html">Sobre o Curso</a></li>
-       <li><a href="Alunos.html">Alunos</a></li>
-       <li><a href="#cadastro" class="cadastro">Cadastar Currículo?</a></li>
-     </ul>
-   </div>
-   <div id="conteudohome"> <br>
-     <center>
-       <h2>Objetivo do site</h2>
-     </center>
-     <p>Este site foi criado por meio de um projeto proposto no módulo de Programação Web da Pós Graduação em Software Programming for Work da UNIT.</p>
-     <p>Ele tem como finalidade divulgar informações sobre os alunos da primeira turma do curso de SPW, tais como: foto, descrição, currículo, redes sociais, entre outros.  Com a criação desse site conseguimos fazer um banco de currículos da turma facilitando a divulgação de informações para as empresas. </p>
-     <p> Apresentamos também informações sobre o curso, com o seu objetivo, metodologia de aulas e o diferencial da sua matriz curricular preparada especialmente por profissionais atuantes dentro do parque tecnológico que faz com que os alunos saiam preparados para atuar no mercado de trabalho.</p>
-     <center>
-       <h2>O que utilizamos para criar o site? </h2>
-     </center>
-     <div id="templatemo_slider"> 
-       <center>
-         <div id = "carousel1" style="width:1000px; height:300px;background:none;overflow:scroll; margin-top: 20px"> 
-           <img class="cloudcarousel" src="img/html.png" alt="logohtml" width="240" height="180" /> <img class="cloudcarousel" src="img/dreamweaver.jpg" alt="logodream" width="240" height="180" /> <img class="cloudcarousel" src="img/photoshop.jpg" alt="logops" width="240" height="180" /> <img class="cloudcarousel" src="img/000web.png" alt="logoweb" width="240" height="180" /> <img class="cloudcarousel" src="img/php.png" alt="logophp" width="240" height="180" /> <img class="cloudcarousel" src="img/JS.png" alt="logojs" width="240" height="180" /> <img class="cloudcarousel" src="img/css3.png" alt="logocss" width="240" height="180"/></div>
-       </center>
-       <input id="slider-left-but" type="button" value="<" />
-       <input id="slider-right-but" type="button" value=">" />
-     </div>
-     <form class="form" method="post" action="email.php">
-       <center>
-         <h2>Cadastro de Currículo<a name="cadastro"></a></h2>
-       </center>
-       <div id="nome" class="ftxt"> Nome:
-         <input type="text" class="msg" name="nome" size ="44" placeholder="Digite seu nome"/>
-       </div>
-       <div id="email" class="ftxt"> Email:
-         <input type="text" class="msg" name="email" size ="44" placeholder="Digite seu e-mail"/>
-       </div>
-       <div id="linkedin" class="ftxt"> Linkedin:
-         <input type="text" class="msg" name="linkedin" size ="40" placeholder="Link do LinkedIn"/>
-       </div>
-       <div id="github" class="ftxt"> GitHub:
-         <input type="text" class="msg" name="git" size ="43" placeholder="Link do GitHub"/>
-       </div>
-       <div id="areas" class="ftxt"> Áreas de Interesse: <br>
-         <textarea class="msg" name="areas" id="" cols="60" rows="6" placeholder="Digite a área de interesse"></textarea>
-       </div>
-       <div id="importarcurriculo" class="ftxt"> Importar Currículo:
-         <input type="file" class="msg" name="impCurriculo">
-       </div>
-       <div id="importarfoto" class="ftxt"> Importar Foto:
-         <input type="file" class="msg" name="impFoto">
-       </div>
-       <div id="botao" class="fbotao">
-         <input type="submit" value="Enviar"/>
-       </div>
-     </form>
-   </div>
-   <div id="creditos" class="fCreditos">
-     <center>
-       <li>Desenvolvedores: <a href="Pdf/Carlos_Pereira_CV.pdf" target="_blank"> Carlos Pereira</a> e <a href="Pdf/Currículo_Wilson_CV.pdf" target="_blank"> Wilson Vieira</a></li>
-     </center>
-   </div>
- </div>
+<head>
+<link rel="stylesheet" href="css/estilo.css">
+<script type="text/javascript" src="js/script.js"> </script>
+<meta charset="utf-8">
+<title>Currículos Pag1</title>
+</head>
+<body>
+<div id="geral">
+  <div id="topo"> <img class="logo1" src="img/Logo.png" alt="logofig" width="180" height="200" > <img class="logo2" src="img/LogoNome3.png" alt="logoNome" width="650" height="180"> <img class="logo3" src="img/Logo1.png" alt="logofig" width="180" height="200" > </div>
+  <div id="menu" class="fMenu">
+    <ul>
+      <li><a href="index.html"  class="selecionado">Home</a></li>
+      <li><a href="sobre.html">Sobre o Curso</a></li>
+      <li><a href="objetivo.html">Objetivo</a></li>
+      <li><a href="objetivo.html#cadastro" class="cadastro"> Cadastar Currículo?</a></li>
+    </ul>
+  </div>
+  <div id="conteudo">
+    <div id="coluna1" class="fColunasP">
+      <div id="colunaS1" class="fColunaS">
+        <div id="fotoC1" class="fFotos"> <img src="img/c2.JPG" alt="foto" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/carlos-pereira-1309/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/Carlos_Pereira_CV.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/chenrique13" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC1" class="fDescricao">
+          <h3>Carlos Henrique do Nascimento Pereira</h3>
+          <ul>
+            <li>Pós-Graduando: Software Programming for Work</li>
+            <li>Graduação: Engenhariada computação</li>
+            <li>Áreas de interesse: Desenvolvimento de Software; Front-End; Back-End; Suporte; 
+              Redes de computadores</li>
+            <li>Competências: C; C++; HTML; CSS; Java;
+              SQL; Suporte e Manutenção de Redes e Computadores</li>
+            <li>Idiomas: Inglês Básico</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS2" class="fColunaS">
+        <div id="fotoC2" class="fFotos"> <img src="img/ThiagoA.png" alt="Foto" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/thiagoalbertins/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/cv_ThiagoAlbertins.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/thiagoalbertins" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC2" class="fDescricao">
+          <h3>Thiago Albertins Souza Bispo</h3>
+          <ul>
+            <li>Pós-Graduando: Software Programming for Work</li>
+            <li>Graduação: Engenharia Mecânica</li>
+            <li>Áreas de interesse: Desenvolvimento de Software; Ciência de Dados</li>
+            <li>Competências: Java; POO; Framework Springboot; JPA; Rest e API; Banco de Dados Oracle; Excel e Pacote Office</li>
+            <li>Idiomas: Inglês Avançado</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS3" class="fColunaS">
+        <div id="fotoC3" class="fFotos"> <img src="img/HenriqueW.png" alt="foto" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/henriquewirz/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/CV_HenriqueWirzbergerLima.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/wirzberger" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC3" class="fDescricao">
+          <h3>Henrique Wirzberger Lima</h3>
+          <ul>
+            <li>Pós-Graduação: Software Programming for Work; Segurança em Redes de Computadores</li>
+            <li>Graduação: Sistema de Informação</li>
+            <li>Técnico: Desenvolvimento de Sistemas</li>
+            <li>Áreas de interesse: Desenvolvimento de Software </li>
+            <li>Competências: Java; POO; HTML; CSS; SQL; Linux </li>
+            <li>Idiomas: Inglês Intermediário</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS4" class="fColunaS">
+        <div id="fotoC4" class="fFotos"> <img src="img/HenriqueC.png" alt="foto" width="180" height="220"> <br>
+          <center>
+            <a href="https://www.linkedin.com/in/henrique-chalegre-951266191/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/Henrique_Chalegre_CV.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a>
+          </center>
+        </div>
+        <div id="DescricaoC4" class="fDescricao">
+          <h3>Henrique Chalegre de Melo</h3>
+          <ul>
+            <li>Pós-Graduação: Software Programming for Work</li>
+            <li>Graduação: Tecnologia em Sistemas para Internet</li>
+            <li>Áreas de Interesse: Desenvolvimento de Software; Front-End; Back-End</li>
+            <li>Competências: Java; MySQL; WIX; HTML; CSS; Microsoft Word/ Excel; Suporte</li>
+            <li>Idiomas: Inglês Básico</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="coluna2" class="fColunasP">
+      <div id="colunaS5" class="fColunaS">
+        <div id="fotoC5" class="fFotos"> <img src="img/Wilson.jpeg" alt="FotoWilson" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/wilson-vieira-14a914198/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/Currículo_Wilson_CV.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/wilsonvieira1994" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC5" class="fDescricao">
+          <h3>Wilson Vieira de Lima Júnior</h3>
+          <ul>
+            <li>Pós-Graduando: Software Programming for Work</li>
+            <li>Graduação: Redes de Computadores</li>
+            <li>Técnico em Redes de Computadores</li>
+            <li>Áreas de interesse: Desenvolvimento de Software; Front-End; Back-End;
+              Redes de computadores; Suporte</li>
+            <li>Competências: Java; HTML; CSS; Suporte e Manutenção de Redes e Computadores</li>
+            <li>Idiomas: Inglês Intermediário</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS6" class="fColunaS">
+        <div id="fotoC6" class="fFotos"> <img src="img/TJ3.png" alt="fotoThiagoJ" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/thiago-jacinto-silva-dos-santos-3b629598/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/CV_THIAGO_JACINTO.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/thiagojacinto" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC6" class="fDescricao">
+          <h3>Thiago Jacinto Silva dos Santos</h3>
+          <ul>
+            <li>Pós-Graduando: Software Programming for Work</li>
+            <li>Graduação: Engenharia Mecânica</li>
+            <li>Áreas de interesse: Desenvolvimento de Software; </li>
+            <li>Competências: CSS; HTML; SQL; Java; Framework Springboot; JPA; Rest e API; Javascript; NodeJS</li>
+            <li>Idiomas: Inglês Avançado</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS7" class="fColunaS">
+        <div id="fotoC7" class="fFotos"> <img src="img/Priscilla.jpeg" alt="foto" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/priscillaazevedo/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/CV_Priscilla_Magalhães.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/prisaz" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC7" class="fDescricao">
+          <h3>Priscilla de Azevedo Rêgo de Magalhães</h3>
+          <ul>
+            <li>Pós-Graduando: Software Programming for Work</li>
+            <li>Graduação: Administração Geral</li>
+            <li>Áreas de Interesse: Desenvolvimento de Software; Análise de Sistema</li>
+            <li>Competências: Microsofit Office; LibreOffice; Windows; Linux; Java; SQL Básico; JavaScript; HTML; CSS</li>
+            <li>Idiomas: Inglês Intermediário; Espanhol Básico</li>
+          </ul>
+        </div>
+      </div>
+      <div id="colunaS8" class="fColunaS">
+        <div id="fotoC8" class="fFotos"> <img src="img/Daniela.jpeg" alt="foto" width="180" height="220"> <br>
+          <a href="https://www.linkedin.com/in/daniela-leite-a9333925/" title="LinkedIn" target="_blank"><img src="img/linkedin2.png" alt="linkedin" width="40" height="40"></a> <a href="Pdf/Curriculo_Daniela_Cruz.pdf" title="Currículo" target="_blank"><img src="img/curriculum.png" alt="Curriculo" width="40" height="40"></a> <a href="https://github.com/danilegirl" title="GitHub" target="_blank"><img src="img/GitHub.png" alt="Git" width="40" height="40"></a> </div>
+        <div id="DescricaoC8" class="fDescricao">
+          <h3>Daniela Leite da Cruz</h3>
+          <ul>
+            <li>Pós-Graduação: Software Programming for Work</li>
+            <li>Graduação: Administração</li>
+            <li>Áreas de Interesse: Análise de Requisitos;</li>
+            <li>Competências: Gestão de Benefícios; Área Financeira; Área Comercial; Bizagi</li>
+            <li>Idiomas: Inglês Básico; Francês Básico</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="botaoD"> <a href="AlunosPag2.html"><img src="img/setaDireita.png" alt="botaoE" title="Próxima Página" width="50" height="50"></a>
+      <p>Próxima</p>
+    </div>
+    <h4>Página 1</h4>
+  </div>
+  <div id="creditos" class="fCreditos">
+    <center>
+      <li>Desenvolvedores: <a href="Pdf/Carlos_Pereira_CV.pdf" target="_blank"> Carlos Pereira</a> e <a href="Pdf/Currículo_Wilson_CV.pdf" target="_blank"> Wilson Vieira</a></li>
+    </center>
+  </div>
+</div>
 </body>
 </html>
